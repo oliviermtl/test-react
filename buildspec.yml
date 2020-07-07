@@ -1,0 +1,24 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo Set up NPM authentication
+      - echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> .npmrc
+      - echo Installing source NPM dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - REACT_APP_BUILD_ENV=$BUILD_ENV REACT_APP_API_WS_ENDPOINT=$API_WS_ENDPOINT REACT_APP_API_REST_ENDPOINT=$API_REST_ENDPOINT npm run build --production
+  post_build:
+    commands:
+      - aws s3 sync build/ s3://$S3_BUCKET --cache-control max-age=$CACHE_CONTROL
+      - aws s3 cp build/index.html s3://$S3_BUCKET/index.html --cache-control max-age=60
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - "**/*"
+  base-directory: "build*"
+  discard-paths: yes

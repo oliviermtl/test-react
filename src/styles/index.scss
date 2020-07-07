@@ -1,0 +1,20 @@
+@import "@speedoc/design-assets/styles/all.scss";
+@import "reset";
+@import "components/index";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PlutoSans", "Helvetica";
+  font-weight: 200;
+  font-size: $font-size-md;
+  color: black;
+  background-color: $sd-background-light;
+  overflow: auto;
+
+  #root {
+    z-index: 0;
+    position: relative;
+  }
+}
