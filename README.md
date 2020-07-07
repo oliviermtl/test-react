@@ -88,9 +88,9 @@ Body :
 
 ```
 {
-	"password" : "1team@speedoc",
-    "username": "dummy@speedoc.com",
-    "rememberMe": true
+  "password" : "1team@speedoc",
+  "username": "dummy@speedoc.com",
+  "rememberMe": true
 }
 ```
 
