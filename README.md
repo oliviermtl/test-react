@@ -10,7 +10,7 @@ You should use Hooks, functionnal components, custom scss (no boostrap or other 
 
 What is expected :
 
-- **Login** :
+### Login :
 
   1. Create simple page to login with those fields :
      - Email
@@ -30,7 +30,7 @@ What is expected :
 
 ![Login Page Example](/src/images/login.jpg)
 
-- **Home Page** :
+### Home Page :
   > If the user is logged, he can access to this page
 
 1. Search User :
