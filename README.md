@@ -22,8 +22,8 @@ What is expected :
 
   To Test :
 
-  - email : `dummy@speedoc.com`
-  - password : `1team@speedoc`
+  - email : `jarvis@speedoc.com`
+  - password : `spedocdemo`
   - secret key : `Mitrfd3Ev45e3tvzmOYeT7HdMe4jGEpN5rawgNGM`
 
 **Bonus** : Make those fields required with patterns
