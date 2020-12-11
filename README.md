@@ -23,7 +23,7 @@ What is expected :
   To Test :
 
   - email : `jarvis@speedoc.com`
-  - password : `spedocdemo`
+  - password : `speedocdemo`
   - secret key : `Mitrfd3Ev45e3tvzmOYeT7HdMe4jGEpN5rawgNGM`
 
 **Bonus** : Make those fields required with patterns
