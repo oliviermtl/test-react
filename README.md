@@ -24,7 +24,7 @@ What is expected :
 
   - email : `jarvis@speedoc.com`
   - password : `speedocdemo`
-  - secret key : `Mitrfd3Ev45e3tvzmOYeT7HdMe4jGEpN5rawgNGM`
+  - secret key : `qOg1IIg9vC5DyC4XCJG7R4HhUnFxmFja8YxXsj2p`
 
 **Bonus** : Make those fields required with patterns
 
@@ -88,8 +88,8 @@ Body :
 
 ```
 {
-  "password" : "1team@speedoc",
-  "username": "dummy@speedoc.com",
+  "password" : "speedocdemo",
+  "username": "jarvis@speedoc.com",
   "rememberMe": true
 }
 ```
