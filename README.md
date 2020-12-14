@@ -89,7 +89,7 @@ Body :
 ```
 {
   "password" : "speedocdemo",
-  "username": "jarvis@speedoc.com",
+  "email": "jarvis@speedoc.com",
   "rememberMe": true
 }
 ```
