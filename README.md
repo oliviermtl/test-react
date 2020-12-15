@@ -12,26 +12,27 @@ What is expected :
 
 ### Login :
 
-  1. Create simple page to login with those fields :
-     - Email
-     - Secret Key
-     - Password
-     - Remember me checkbox
-  2. Call the Login service from api
-  3. Keep informations from login
+1. Create simple page to login with those fields :
+   - Email
+   - Secret Key
+   - Password
+   - Remember me checkbox
+2. Call the Login service from api
+3. Keep informations from login
 
-  To Test :
+To Test :
 
-  - email : `jarvis@speedoc.com`
-  - password : `speedocdemo`
-  - secret key : `qOg1IIg9vC5DyC4XCJG7R4HhUnFxmFja8YxXsj2p`
+- email : `jarvis@speedoc.com`
+- password : `speedocdemo`
+- secret key : `qOg1IIg9vC5DyC4XCJG7R4HhUnFxmFja8YxXsj2p`
 
 **Bonus** : Make those fields required with patterns
 
 ![Login Page Example](/src/images/login.jpg)
 
 ### Home Page :
-  > If the user is logged, he can access to this page
+
+> If the user is logged, he can access to this page
 
 1. Search User :
 
@@ -94,7 +95,7 @@ Body :
 }
 ```
 
-- **Search** - https://dev.api-rest.speedoc.com/user/search?term=tan : Get search an existing user (ex: tan or test). If you have multiple users in the response just take the first one.
+- **Search** - https://dev.api-rest.speedoc.com/users?search=tan : Get search an existing user (ex: tan or test). If you have multiple users in the response just take the first one.
 
 ## Submission
 
