@@ -99,4 +99,4 @@ Body :
 
 ## Submission
 
-Fork this repository and send us a pull request. We'll review it and get back to you in order to talk about your code!
+Git clone, create you brancj and send us a pull request. We'll review it and get back to you in order to talk about your code!
