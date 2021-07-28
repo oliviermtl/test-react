@@ -95,7 +95,7 @@ Body :
 }
 ```
 
-- **Search** - https://dev.api-rest.speedoc.com/users?search=tan : Get search an existing user (ex: tan or test). If you have multiple users in the response just take the first one.
+- **Search** - https://dev.api-rest.speedoc.com/users?search=demo : Get search an existing user (ex: demo or test). If you have multiple users in the response just take the first one.
 
 ## Submission
 
